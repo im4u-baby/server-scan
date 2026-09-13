@@ -2,108 +2,175 @@
 
 🚀 INDIA SERVER SCRAPER
 
-⚡ Fast • Async • Protected • Cross-Platform IPTV/Xtream Live TV Checker
+⚡ Async Xtream/XUI Live TV Checker • M3U8 / TS Verification
 
-<a href="https://github.com/">
-  <img src="https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+
+
+
+
+
+
+<br>
+
+<a href="https://t.me/Krishna_Subroto">
+<img src="https://img.shields.io/badge/Developer-@Krishna__Subroto-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="@Krishna_Subroto">
 </a>
-<a href="https://github.com/">
-  <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20Linux%20%7C%20Termux-111827?style=for-the-badge" alt="Platform">
-</a>
-<a href="https://github.com/">
-  <img src="https://img.shields.io/badge/Mode-Async-00A67D?style=for-the-badge" alt="Async">
-</a>
-<a href="https://github.com/">
-  <img src="https://img.shields.io/badge/Status-Ready-22C55E?style=for-the-badge" alt="Status">
+<a href="https://t.me/i_stay_silent_not_week">
+<img src="https://img.shields.io/badge/Developer-@i__stay__silent__not__week-229ED9?style=for-the-badge&logo=telegram&logoColor=white" alt="@i_stay_silent_not_week">
 </a>
 
 <br><br>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&duration=2200&pause=700&color=00F0FF&center=true&vCenter=true&width=850&lines=INDIA+SERVER+SCRAPER;Async+Xtream%2FXUI+Live+TV+Checker;M3U8+%2B+TS+Stream+Verification;Windows+%7C+Linux+%7C+Termux;Protected+Build+by+Subroto+Roy" alt="Typing animation">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=800&size=24&duration=2200&pause=700&color=00E5FF&center=true&vCenter=true&width=900&lines=INDIA+SERVER+SCRAPER;FAST+ASYNC+LIVE+TV+CHECKER;M3U8+%2B+TS+STREAM+VERIFICATION;WINDOWS+%7C+LINUX+%7C+TERMUX;PROTECTED+BUILD;AUTHORIZED+USE+ONLY" alt="Animated title">
 
 <br>
 
-Developer: @Krishna_Subroto
+🔥 Professional • Fast • Lightweight • Cross-Platform
 
 </div>
 
-✨ Overview
+🌟 About
 
-INDIA SERVER SCRAPER is an asynchronous Python-based Xtream/XUI-compatible Live TV checker.
+INDIA SERVER SCRAPER is an asynchronous Python tool for checking authorized Xtream/XUI-compatible Live TV servers.
 
-It connects to an authorized IPTV/Xtream server, authenticates with the supplied credentials, loads live-TV categories and channels, verifies returned streams, and writes verified working channels into an M3U playlist.
+The program:
 
-🔐 Use only servers, accounts and streams that you are authorized to access.
+HOST
+  ↓
+USERNAME
+  ↓
+PASSWORD
+  ↓
+API AUTHENTICATION
+  ↓
+FETCH LIVE TV
+  ↓
+CHECK M3U8 / TS STREAMS
+  ↓
+FILTER WORKING CHANNELS
+  ↓
+SAVE working_channels.m3u
 
-🌟 Main Features
-
-Feature
-
-Description
-
-🚀 Async Scanner
-
-Concurrent stream checking using asyncio + aiohttp
-
-🔐 Authentication
-
-Xtream/XUI-style API login
-
-📺 Live TV Fetch
-
-Fetches all returned live-TV entries
-
-🗂️ Categories
-
-Loads live categories when available
-
-✅ Stream Verification
-
-Checks M3U8/HLS and MPEG-TS responses
-
-🔄 Retry
-
-Retries failed stream checks according to configuration
-
-⚡ Concurrency
-
-Multiple stream checks at the same time
-
-📦 Batch Processing
-
-Large channel lists are processed in batches
-
-📄 M3U Export
-
-Saves only verified working streams
-
-🛡️ Protected Build
-
-Protected version includes integrity/protection logic
-
-💻 Cross Platform
-
-Windows, Linux and Termux
-
-📁 Project Structure
-
-.
-├── india_server_scraper.py
-├── requirements.txt
-├── README.md
-└── working_channels.m3u
-
-working_channels.m3u is generated automatically after a successful scan.
-
-🛠️ Installation
+It is designed to work on:
 
 🪟 Windows
 
-1. Install Python
+🐧 Linux
 
-Install Python 3.9 or newer and make sure Python is added to PATH.
+📱 Termux
 
-Check:
+☁️ Linux VPS
+
+🔐 Only use servers, accounts and streams that you are authorized to access.
+
+✨ Features
+
+Feature
+
+Details
+
+🚀 Async checking
+
+Uses asynchronous requests for concurrent verification
+
+🔐 API authentication
+
+Xtream/XUI-style authentication
+
+📺 Live TV fetching
+
+Retrieves available live-TV entries
+
+🗂️ Categories
+
+Loads live categories when supported
+
+✅ M3U8 verification
+
+Detects HLS playlist responses
+
+✅ TS verification
+
+Checks MPEG-TS stream signatures
+
+🔄 Retry support
+
+Failed checks can be retried
+
+⚡ Concurrent workers
+
+Multiple channels checked at once
+
+📦 Batch processing
+
+Large channel lists processed in batches
+
+📄 M3U export
+
+Working streams saved automatically
+
+🛡️ Protected build
+
+Includes source-protection / integrity logic
+
+💻 Cross-platform
+
+Windows + Linux + Termux
+
+📁 Project Files
+
+india-server-scraper/
+│
+├── india_server_scraper.py
+├── requirements.txt
+├── README.md
+│
+└── working_channels.m3u
+       └── generated after a successful scan
+
+india_server_scraper.py
+
+Main application file.
+
+requirements.txt
+
+Required Python package list.
+
+README.md
+
+This documentation.
+
+working_channels.m3u
+
+Automatically generated output containing verified channels.
+
+📦 Requirements
+
+Python
+
+Recommended:
+
+Python 3.9+
+
+Check your version:
+
+python --version
+
+Linux users can also use:
+
+python3 --version
+
+🪟 WINDOWS
+
+1️⃣ Install Python
+
+Install Python 3.9+ from the official Python website.
+
+During installation, enable:
+
+☑ Add Python to PATH
+
+Verify:
 
 python --version
 
@@ -111,159 +178,194 @@ or:
 
 py --version
 
-2. Open the project folder
+2️⃣ Open the project directory
 
-cd path\to\your\project
+Example:
 
-3. Install dependencies
+cd C:\Users\YourName\Desktop\india-server-scraper
+
+3️⃣ Install dependencies
 
 python -m pip install -r requirements.txt
 
-4. Run
+If your computer uses py:
+
+py -m pip install -r requirements.txt
+
+4️⃣ Start the scraper
 
 python india_server_scraper.py
 
-If your system uses the py launcher:
+or:
 
 py india_server_scraper.py
 
-🐧 Linux
+🪟 Windows Quick Start
 
-1. Check Python
+cd C:\path\to\project
+python -m pip install -r requirements.txt
+python india_server_scraper.py
+
+🐧 LINUX
+
+1️⃣ Check Python
 
 python3 --version
 
-2. Install pip if required
+2️⃣ Install Python and pip
 
-Ubuntu/Debian:
+Ubuntu / Debian
 
 sudo apt update
 sudo apt install python3 python3-pip
 
-3. Open the project directory
+3️⃣ Open the project directory
 
-cd /path/to/project
+cd /path/to/india-server-scraper
 
-4. Install requirements
+4️⃣ Install dependencies
 
 python3 -m pip install -r requirements.txt
 
-If your distribution requires an external managed environment, create a virtual environment:
+Recommended: virtual environment
 
 python3 -m venv venv
 source venv/bin/activate
 python3 -m pip install -r requirements.txt
 
-5. Run
+5️⃣ Run
 
 python3 india_server_scraper.py
 
-📱 Termux
+🐧 Linux Quick Start
 
-1. Update packages
+sudo apt update
+sudo apt install python3 python3-pip
+cd /path/to/project
+python3 -m pip install -r requirements.txt
+python3 india_server_scraper.py
+
+📱 TERMUX
+
+1️⃣ Update Termux
 
 pkg update && pkg upgrade
 
-2. Install Python
+2️⃣ Install Python
 
 pkg install python
 
-Check:
+Verify:
 
 python --version
 
-3. Go to the project folder
+3️⃣ Open your project folder
 
 Example:
 
 cd ~/india-server-scraper
 
-4. Install requirements
+4️⃣ Install dependencies
 
 pip install -r requirements.txt
 
-5. Run
+5️⃣ Run
 
 python india_server_scraper.py
 
-📂 Optional: access phone storage
+📂 Optional: Termux Storage
+
+To access your phone storage:
 
 termux-setup-storage
 
-Then you can work from a folder under:
+Then you can access:
 
-~/storage/
+~/storage/shared/
 
-📦 Requirements
+For example:
 
-requirements.txt:
+cd ~/storage/shared/india-server-scraper
+python india_server_scraper.py
+
+📱 Termux Quick Start
+
+pkg update && pkg upgrade
+pkg install python
+cd ~/india-server-scraper
+pip install -r requirements.txt
+python india_server_scraper.py
+
+📄 REQUIREMENTS.TXT
+
+The recommended requirements.txt is:
 
 aiohttp
-cryptography
 
-The protected build uses Python standard-library modules as well, so those do not need separate installation.
+The Python standard library modules used by the application do not need to be installed separately.
 
-▶️ Usage
+Install everything with:
 
-When the program starts, it asks for:
+pip install -r requirements.txt
+
+▶️ HOW TO USE
+
+Start the program:
+
+python india_server_scraper.py
+
+The program will ask for:
 
 [1] Host Name :
 [2] Username  :
 [3] Password  :
 
-Example format:
-
-Host Name : http://example.com:8080
-Username  : your_username
-Password  : your_password
-
-The password is entered as hidden input.
-
-The normal flow is:
-
-┌──────────────────────┐
-│  Enter Server Data   │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│   API Authentication │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│  Load Live Categories│
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│ Fetch Live TV Entries│
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│ Verify M3U8 / TS URL │
-└──────────┬───────────┘
-           ↓
-┌──────────────────────┐
-│ Save Working Streams │
-└──────────┬───────────┘
-           ↓
-    working_channels.m3u
-
-📺 Output
-
-After scanning, the program creates:
-
-working_channels.m3u
-
-The playlist contains only streams that passed the verification checks.
-
 Example:
 
-#EXTM3U
-#EXTINF:-1 tvg-id="123" tvg-name="Example Channel" tvg-logo="" group-title="Live TV",Example Channel
-http://example.com/live/user/pass/123.m3u8
+[1] Host Name : http://example.com:8080
+[2] Username  : your_username
+[3] Password  : your_password
 
-⚙️ Configuration
+The password is entered using hidden input.
 
-The main scanner settings are kept inside the Python program.
+🔄 SCAN FLOW
+
+╔══════════════════════════════════════╗
+║         INDIA SERVER SCRAPER         ║
+╚══════════════════╦═══════════════════╝
+                   ║
+                   ▼
+        ┌─────────────────────┐
+        │ Enter Server Details│
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │    Authentication   │
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │  Load Categories    │
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │ Fetch Live TV List  │
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │  Verify M3U8 / TS   │
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │ Keep Working Streams│
+        └──────────┬──────────┘
+                   ▼
+        ┌─────────────────────┐
+        │ working_channels.m3u│
+        └─────────────────────┘
+
+⚙️ CONFIGURATION
+
+The scanner contains configuration values for performance and timeout handling.
 
 Typical settings include:
 
@@ -275,144 +377,189 @@ RETRY_COUNT = 1
 MAX_REDIRECTS = 5
 VERIFY_BYTES = 4096
 
-What they control
+🔥 What they do
 
-MAX_CONCURRENCY → maximum simultaneous stream checks
+MAX_CONCURRENCY
 
-BATCH_SIZE → number of channels processed per batch
+Controls how many stream checks can run at the same time.
 
-API_TIMEOUT → API request timeout
+BATCH_SIZE
 
-STREAM_TIMEOUT → stream verification timeout
+Prevents very large server lists from creating too many tasks at once.
 
-RETRY_COUNT → retry count for failed stream checks
+API_TIMEOUT
 
-MAX_REDIRECTS → allowed HTTP redirects
+Controls API request timeout.
 
-VERIFY_BYTES → bytes inspected during stream verification
+STREAM_TIMEOUT
 
-⚠️ Increase concurrency carefully. Very high values can increase CPU, RAM, bandwidth usage, server load, or trigger remote rate limits.
+Controls how long a stream check can wait.
 
-🛡️ Protected Build
+RETRY_COUNT
 
-The protected version is intended to make casual source inspection and modification more difficult while preserving the program's normal runtime behavior.
+Controls retry attempts.
 
-Important
+MAX_REDIRECTS
 
-No Python .py file can be made 100% impossible to reverse engineer or modify once another person has the file and can execute it.
+Controls the maximum allowed redirects.
 
-Protection should therefore be treated as:
+VERIFY_BYTES
 
-Source hiding + integrity checking + harder casual editing
+Controls how much stream data is inspected during verification.
 
-—not as an absolute cryptographic guarantee.
+⚠️ Do not blindly increase concurrency. Remote server limits, network bandwidth, RAM and CPU all affect performance.
 
-🧪 Troubleshooting
+🛡️ PROTECTED BUILD
 
-ModuleNotFoundError: No module named 'aiohttp'
+The protected version is intended to make casual source inspection and straightforward editing more difficult while retaining normal runtime behavior.
+
+Typical protected workflow:
+
+Original Application
+        ↓
+Protection / Packaging
+        ↓
+Protected Python File
+        ↓
+Runtime Integrity Check
+        ↓
+Application Starts
+
+⚠️ Important
+
+No Python .py file can be made mathematically impossible to reverse-engineer once someone has the executable/source artifact and enough control over the runtime environment.
+
+The protection goal is:
+
+✅ Harder to casually inspect
+✅ Harder to casually edit
+✅ Detect modified payloads
+✅ Keep normal execution working
+
+—not an absolute guarantee against reverse engineering.
+
+🔧 REPLACING THE PROTECTED FILE
+
+If you receive an updated protected build, replace the old Python file with the new file while keeping:
+
+requirements.txt
+README.md
+
+and your output location intact.
+
+Then reinstall requirements if necessary:
+
+pip install -r requirements.txt
+
+and run:
+
+python india_server_scraper.py
+
+📄 OUTPUT
+
+After a successful scan, the program writes:
+
+working_channels.m3u
+
+The file contains:
+
+#EXTM3U
+
+followed by verified channel entries.
+
+Example structure:
+
+#EXTM3U
+#EXTINF:-1 tvg-id="123" tvg-name="Example Channel" tvg-logo="" group-title="Live TV",Example Channel
+http://example.com/live/user/pass/123.m3u8
+
+You can then import the M3U playlist into a compatible IPTV player.
+
+🧪 TROUBLESHOOTING
+
+❌ No module named 'aiohttp'
 
 Run:
 
 python -m pip install -r requirements.txt
 
-On Linux/Termux:
+Linux:
 
 python3 -m pip install -r requirements.txt
 
-or:
+Termux:
 
 pip install -r requirements.txt
 
-Python command not found
+❌ python command not found
 
-Windows:
+Windows
+
+Try:
 
 py --version
 
-Linux:
+Linux
+
+Try:
 
 python3 --version
 
-Termux:
+Termux
 
+Try:
+
+pkg install python
 python --version
 
-Server authentication fails
+❌ Authentication failed
 
-Check that:
+Verify:
 
 Host
 Username
 Password
 
-are correct and that you are authorized to use the server.
+and make sure the account is authorized and compatible with the expected API.
 
-Also verify that the server exposes a compatible Xtream/XUI API.
+❌ 0 live channels
 
-0 live channels returned
+Possible reasons:
 
-Possible causes include:
+• Account has no Live TV entries
+• API returned an unexpected response
+• Account permissions are limited
+• Server does not support the expected API format
 
-The account has no live-TV entries.
+❌ All streams appear dead
 
-The server API returned an unexpected response.
+Possible reasons:
 
-The credentials have limited permissions.
+• Network issue
+• Remote server timeout
+• Expired credentials
+• Invalid stream endpoints
+• Unsupported response type
+• Server rate limiting
 
-The panel is not compatible with the expected API format.
+🔐 SECURITY
 
-Streams show as dead
+Never put real credentials inside:
 
-A stream can fail verification because of:
+README.md
+GitHub issues
+Public commits
+Screenshots
+Public Telegram messages
+Paste sites
 
-network problems
+Always remove or hide credentials before publishing logs or screenshots.
 
-expired credentials
+🎯 SUPPORTED ENVIRONMENTS
 
-unavailable stream
+Environment
 
-invalid stream endpoint
-
-remote server timeout
-
-unsupported response format
-
-🔒 Security Notes
-
-Never publish real credentials in:
-
-GitHub commits
-
-screenshots
-
-README files
-
-issue trackers
-
-public Telegram groups
-
-public paste sites
-
-Use only authorized IPTV/Xtream servers and accounts.
-
-⚡ Performance Tips
-
-For large channel lists:
-
-BATCH_SIZE       → controls batch processing
-MAX_CONCURRENCY  → controls simultaneous checks
-STREAM_TIMEOUT   → controls per-stream waiting time
-RETRY_COUNT      → controls retry behavior
-
-A faster configuration is not always better. Your network, VPS/phone hardware, and remote server limits all matter.
-
-🖥️ Supported Platforms
-
-<div align="center">
-
-Platform
-
-Supported
+Status
 
 🪟 Windows
 
@@ -426,32 +573,56 @@ Supported
 
 ✅
 
-💻 VPS
+☁️ VPS
 
 ✅
 
-☁️ Cloud Linux
+🖥️ Linux Server
 
 ✅
 
-</div>
+💻 Desktop Python
 
-📜 Disclaimer
+✅
 
-This project is intended for authorized testing, administration and verification of IPTV/Xtream-compatible servers and accounts.
-
-The developer does not provide or authorize unauthorized access to third-party systems.
-
-You are responsible for how you use this software and for ensuring that your activity complies with applicable laws, service terms and the authorization of the server owner.
+📌 DEVELOPER
 
 <div align="center">
 
-💙 Developed by
+👨‍💻 Developers
 
-@Krishna_Subroto
+<a href="https://t.me/Krishna_Subroto">
 
-⚡ INDIA SERVER SCRAPER
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00F0FF,100:7C3AED&height=120&section=footer" alt="Footer animation">
+
+</a>
+
+<a href="https://t.me/i_stay_silent_not_week">
+
+
+
+</a>
+
+<br>
+
+Built with ❤️ • Python • asyncio • aiohttp
+
+</div>
+
+⚖️ DISCLAIMER
+
+This software is intended for authorized testing, administration and verification of IPTV/Xtream-compatible servers and accounts.
+
+Use only systems and accounts you have permission to access.
+
+The user is responsible for complying with applicable laws, contracts, service terms and the server owner's authorization.
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:2563EB,100:7C3AED&height=180&section=footer&text=INDIA%20SERVER%20SCRAPER&fontSize=28&fontColor=ffffff&animation=fadeIn" alt="Animated footer">
+
+⭐ INDIA SERVER SCRAPER ⭐
+
+Developed by @Krishna_Subroto & @i_stay_silent_not_week
 
 </div>
