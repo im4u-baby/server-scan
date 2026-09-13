@@ -63,6 +63,4 @@ Devices : 50
 <div align="center">
 ⚡ ROY SCRAPING V3
 
-SCAN • VERIFY • FILTER • EXPORT • PLAY
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00F0FF&height=100&section=footer"/> </div>
+SCAN • VERIFY • FILTER • EXPORT • PLAY>
